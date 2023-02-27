@@ -5,11 +5,14 @@
 
 # Step 1:
 # Create dockerpath
-# dockerpath=<your docker ID/path>
+dockerpath=djomajeff/udacity-devops-nd-microservice-ml-project
 
 # Step 2:  
 # Authenticate & tag
 echo "Docker ID and Image: $dockerpath"
+docker login
+docker --tag udacity-devops-nd-microservice-ml-project $dockerpath:latest
 
 # Step 3:
 # Push image to a docker repository
+docker push $dockerpath:latest
