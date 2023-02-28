@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/djomajeff/Operationalize-ML-Microservice/tree/master)
+[![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/djomajeff/Operationalize-ML-Microservice?branch=master)
 
 ## Project Overview
 
